@@ -9,6 +9,7 @@ import joblib
 model = joblib.load('dog_breed_predictor.pkl')
 
 
+st.image("images (1).jpeg")
 st.markdown("## Dog Breed Prediction App")
 st.markdown("""
 This app uses deep learning (Convolutional Neural Network) libraries namely keras to predict the following breeds of dogs given the input image:
