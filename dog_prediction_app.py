@@ -28,7 +28,7 @@ CLASS_NAMES = ['Scottish Deerhound' ,'Maltese Dog' ,'Afghan Hound ','Entlebucher
 st.markdown("Upload an image of the dog")
 
 #Uploading the dog image
-dog_image = st.file_uploader("Choose an image...", type=['png','jpg','webp'])
+dog_image = st.file_uploader("Choose an image...", type=['png','jpg','webp','jpeg'])
 submit = st.button('Predict')
 #On predict button click
 if submit:
