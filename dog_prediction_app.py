@@ -12,6 +12,7 @@ model = joblib.load('dog_breed_predictor.pkl')
 st.markdown("## Dog Breed Prediction App")
 st.markdown("""
 This app uses deep learning (Convolutional Neural Network) libraries namely keras to predict the following breeds of dogs given the input image:
+
 1. Scottish Deerhound
 2. Maltese Dog
 3. Afghan Hound
@@ -19,16 +20,16 @@ This app uses deep learning (Convolutional Neural Network) libraries namely kera
 5. Bernese Mountain Dog
 
 **Made by Ifeanyi Nneji**
+
+
 Data source: kaggle/catherinehorng/dogbreedidfromcomp
 """)
 
 #Name of Classes
 CLASS_NAMES = ['Scottish Deerhound' ,'Maltese Dog' ,'Afghan Hound ','Entlebucher ','Bernese Mountain Dog']
 
-st.markdown("Upload an image of the dog")
-
 #Uploading the dog image
-dog_image = st.file_uploader("Choose an image...", type=['png','jpg','webp','jpeg'])
+dog_image = st.file_uploader("Upload an image of the dog...", type=['png','jpg','webp','jpeg'])
 submit = st.button('Predict')
 #On predict button click
 if submit:
