@@ -1,5 +1,4 @@
 Keras
-opencv_python
+opencv-python-headlesa
 numpy
 streamlit
-libgl1
