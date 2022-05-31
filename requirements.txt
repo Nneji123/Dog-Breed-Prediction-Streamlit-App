@@ -1,4 +1,4 @@
 Keras
-opencv_python
+python3-opencv
 numpy
 streamlit
