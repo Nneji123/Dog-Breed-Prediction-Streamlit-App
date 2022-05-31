@@ -8,7 +8,7 @@ import joblib
 #Loading the Model
 model = joblib.load('dog_breed_predictor.pkl')
 
-st.image('dog_image.webp')
+
 st.markdown("## Dog Breed Prediction App")
 st.markdown("""
 This app uses deep learning (Convolutional Neural Network) libraries namely keras to predict the following breeds of dogs given the input image:
@@ -28,7 +28,7 @@ CLASS_NAMES = ['Scottish Deerhound' ,'Maltese Dog' ,'Afghan Hound ','Entlebucher
 st.markdown("Upload an image of the dog")
 
 #Uploading the dog image
-dog_image = st.file_uploader("Choose an image...", type=['png','jpg'])
+dog_image = st.file_uploader("Choose an image...", type=['png','jpg','webp'])
 submit = st.button('Predict')
 #On predict button click
 if submit:
