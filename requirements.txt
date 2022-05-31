@@ -1,3 +1,4 @@
+tensorflow
 Keras
 opencv-python-headless
 numpy
