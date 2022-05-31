@@ -1,4 +1,4 @@
 Keras
-opencv-python-headlesa
+opencv-python-headless
 numpy
 streamlit
